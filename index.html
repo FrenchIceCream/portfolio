@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- site title -->
+  <title>
+    Аллан Риттер | Gameplay Programmer
+  </title>
+
+  <meta name="description" content="gameplay programmer">
+  <meta name="keywords" content="Allan Ritter, Unity, Unreal Engine, C++, C#" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#education" class="nav__link">Образование</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Навыки</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Опыт</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">Проекты</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Аллан Риттер</span>
+        </h1>
+        <h3>
+          <span>Gameplay Programmer</span>
+        </h3>
+        <p>Программист на Unity, Unreal Engine</p>
+        <a href="#contact" class="btn btn--pink">Связатья</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- <svg id="animation" width="800" height="600" viewBox="0 0 500 500"></svg>
+<script>
+      const totalFrames = 250;
+      const svg = document.getElementById('animation');
+
+      // Dynamically create all image elements
+      for (let i = 0; i < totalFrames; i++) {
+        const img = document.createElementNS('http://www.w3.org/2000/svg', 'image');
+        img.setAttribute('id', 'frame' + i);
+        const filename = './images/animation/' + i.toString().padStart(4, '0') + '.png';
+        img.setAttribute('href', filename);
+        img.setAttribute('width', 600);
+        img.setAttribute('height', 600);
+        img.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        // Show only the first frame initially
+        if (i === 0) {
+          img.style.display = 'block';
+        } else {
+          img.style.display = 'none';
+        }
+        svg.appendChild(img);
+      }
+
+      // Animation control
+      let currentFrame = 0;
+
+      function showFrame(frameIndex) {
+        for (let i = 0; i < totalFrames; i++) {
+          document.getElementById('frame' + i).style.display = (i === frameIndex) ? 'block' : 'none';
+        }
+      }
+
+      setInterval(() => {
+        showFrame(currentFrame);
+        currentFrame = (currentFrame + 1) % totalFrames;
+      }, 30); // Adjust for desired frame rate
+    </script> -->
+
+
+  <main role="main">
+    <section class="work" id="education">
+      <div class="row">
+        <h2>Образование</h2>
+        <div class="edu-item"><b>Университет ИТМО</b>
+          <div>Технологии разработки компьютерных игр</div>
+          <div>2024 - 2026</div>
+        </div>
+        <br>
+        <div class="edu-item"><b>Южный федеральный университет</b>
+          <div>Фундаментальная информатика и информационные технологии</div>
+          <div>2020 - 2024</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="skills">
+      <div class="row">
+        <h2>Навыки</h2>
+        <div class="skills-grid">
+          <div class="skill-panel">
+            <div class="skill-panel-label">Языки</div>
+            <div class="skill-tags">
+              <span class="tag">C#</span><span class="tag">C++</span><span class="tag">Lua</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+          <div class="skill-panel">
+            <div class="skill-panel-label">Движки</div>
+            <div class="skill-tags">
+              <span class="tag">Unity</span><span class="tag">Unreal Engine</span>
+            </div>
+          </div>
+          <div class="skill-panel">
+            <div class="skill-panel-label">Инструменты</div>
+            <div class="skill-tags">
+              <span class="tag">Git</span><span class="tag">Perforce</span><span class="tag">Jira</span>
+              <span class="tag">Confluence</span>
+              <span class="tag">DOTween</span>
+              <span class="tag">Scriptable Object</span>
+              <span class="tag">ShaderGraph</span>
+              <span class="tag">GAS</span>
+              <span class="tag">EOS SDK</span>
+              <span class="tag">VContainer</span>
+              <span class="tag">Zenject</span>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="work" id="experience">
+      <div class="row">
+        <h2>Опыт</h2>
+        <div class="edu-item"><b>Lesta Academy, 2025-2026</b></div>
+        <div>
+          Участвовал в разработке проекта на Unity. Программировал UI, логику инвентаря, контроллер
+          персонажа, шейдеры, работал с DI-контейнерами.
+        </div>
+        <br>
+        <div class="edu-item"><b>Softlock Studio, 2025</b></div>
+        <div>
+          Был программистом на проекте на Unreal Engine 5 с локальным мультиплеером (Epic Online
+          Subsystem) и GAS. Работал как с Blueprints, так и с C++, занимался разработкой инвентаря, UI,
+          создал и подключил 3D-модели.
+        </div>
+        <br>
+        <div class="edu-item"><b>ООО «Донтеко», 2024</b></div>
+        <div>
+          Стажировка, в ходе которой я занимался разработкой игровой логики на Unity, игрового ИИ на
+          основе FSM, настраивал анимации и VFX для проекта-клона Bomberman.
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Projects ***** -->
+
+    <section id="projects">
+      <div class="wrap">
+        <h2>Проекты</h2>
+        <!-- PROJECT 1 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/Nordvik1.png" alt="Nordvik — скриншот 1">
+              <img src="images/Nordvik2.png" alt="Nordvik — скриншот 2">
+              <img src="images/Nordvik3.png" alt="Nordvik — скриншот 3">
+              <img src="images/Nordvik4.png" alt="Nordvik — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Nordvik</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>11 человек</dd>
+              <dt>Стек</dt>
+              <dd>Unity C#, DI, DOTween, ShaderGraph, Scriptable Objects, Git</dd>
+              <dt>Жанр</dt>
+              <dd>Point&Click, головоломка</dd>
+              <dt>Срок</dt>
+              <dd>6 месяцев, 2025-2026</dd>
+            </dl>
+
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>
+                1 место в Lesta Academy (11 поток, 2025–2026)</span>
+            </div>
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>Приз зрительских симпатий</span>
+            </div>
+
+            <p class="project-text">
+              3D-квест с видом сверху в норвежской деревушке.<br>
+              Был одним из программистов. Программировал UI, логику инвентаря, контроллер
+              персонажа, шейдеры, работал с DI-контейнерами.
+            </p>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/lesfiveteam/BigProject" target="_blank">GitHub</a>
+              <a class="link-btn" href="https://puffy-pixel.itch.io/nordvik" target="_blank">itch.io</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 2 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/sporewatcher1.jpg" alt="Sporewatcher — скриншот 1">
+              <img src="images/sporewatcher2.jpg" alt="Sporewatcher — скриншот 2">
+              <img src="images/sporewatcher3.jpg" alt="Sporewatcher — скриншот 3">
+              <img src="images/sporewatcher4.gif" alt="Sporewatcher — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Sporewatcher</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>5 человек</dd>
+              <dt>Стек</dt>
+              <dd>Unity C#, VContainer, DOTween, ShaderGraph, Scriptable Objects, Git</dd>
+              <dt>Жанр</dt>
+              <dd>Хоррор, симулятор, resource management</dd>
+              <dt>Срок</dt>
+              <dd>1 месяц, 2026</dd>
+            </dl>
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>Создано в рамках геймджема по вселенной К.О.Н.Т.У.Р.</span>
+            </div>
+
+            <p class="project-text">
+              Симулятор, в котором игрок берет на себя роль управляющего персоналом и стремится распределить работников
+              так, чтобы удержать заражение многоэтажного дома.
+              <br><br>
+              Программировал UI/UX, шейдеры, работал с Vcontainer, настроил локализацию.
+            </p>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/Softlock-Studio/KONTUR" target="_blank">GitHub</a>
+              <a class="link-btn" href="https://dustore.ru/g/257" target="_blank">dustore</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 3 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/nefi1.jpg" alt="No Escape for Infected — скриншот 1">
+              <img src="images/nefi2.jpg" alt="No Escape for Infected — скриншот 2">
+              <img src="images/nefi3.png" alt="No Escape for Infected — скриншот 3">
+              <img src="images/nefi4.png" alt="No Escape for Infected — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">No Escape for Infected</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>4 человека</dd>
+              <dt>Стек</dt>
+              <dd>Unreal Engine C++, Blueprints, EOS SDK, GAS, Perforce</dd>
+              <dt>Жанр</dt>
+              <dd>Хоррор, выживание, roguelike</dd>
+              <dt>Срок</dt>
+              <dd>5 месяцев, 2025</dd>
+            </dl>
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>Финалист VK лаборатории</span>
+            </div>
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>2 место на ITMO Gamedev Day 3</span>
+            </div>
+
+            <p class="project-text">
+              Кооперативный roguelike до 4-х человек, где игрокам нужно сбежать из наполненной монстрами многоэтажки.
+              <br><br>
+              Программировал UI/UX, инвентарь, базовые действия персонажей, работал с анимациями, создал и подключил
+              3д-модели.
+            </p>
+            <div class="project-links">
+              <a class="link-btn" href="https://vkplay.ru/play/game/no-escape-for-infected-44242/?mt_link_id=fqt4n1"
+                target="_blank">vk play</a>
+              <a class="link-btn" href="https://sinty1.itch.io/no-escape-for-infected" target="_blank">itch.io</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 4 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/fishing_him1.png" alt="Fishing Him — скриншот 1">
+              <img src="images/fishing_him2.png" alt="Fishing Him — скриншот 2">
+              <img src="images/fishing_him3.png" alt="Fishing Him — скриншот 3">
+              <img src="images/fishing_him4.jpg" alt="Fishing Him — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Fishing Him</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>11 человек</dd>
+              <dt>Стек</dt>
+              <dd>Unity C#, Shader Graph, Git</dd>
+              <dt>Жанр</dt>
+              <dd>Аркада</dd>
+              <dt>Срок</dt>
+              <dd>1 неделя, 2025</dd>
+            </dl>
+            <div class="project-highlight"><span class="icon">●</span>
+              <span>Создано в рамках геймджема Леста Академии</span>
+            </div>
+
+            <p class="project-text">
+              Сборник из трех мини-игр, в которых рыбки пытаются победить рыбака.
+              <br><br>
+              Был одним из программистов, помимо мелких задач занимался логикой сохранения прогресса и шейдерами
+            </p>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/lesfiveteam/LesJam" target="_blank">github</a>
+              <a class="link-btn" href="https://puffy-pixel.itch.io/fishing-him" target="_blank">itch.io</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 5 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/catcafe1.png" alt="Cat Cafe: Escape — скриншот 1">
+              <img src="images/catcafe2.png" alt="Cat Cafe: Escape — скриншот 2">
+              <img src="images/catcafe3.png" alt="Cat Cafe: Escape — скриншот 3">
+              <img src="images/catcafe4.png" alt="Cat Cafe: Escape — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Cat Cafe: Escape</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>Соло</dd>
+              <dt>Стек</dt>
+              <dd>Unreal Engine C++, Behavior Tree, Blueprints, Git</dd>
+              <dt>Жанр</dt>
+              <dd>3D-платформер</dd>
+              <dt>Срок</dt>
+              <dd>3 месяца, 2024</dd>
+            </dl>
+
+            <p class="project-text">
+              Платформер от 3-го лица, в котором коту необходимо отбиваться от ожившей еды
+              <br><br>
+              Программировал контроллер персонажа, взаимодействие с окружением, AI врагов, анимации, UI/UX.
+            </p>
+            <div class="project-links">
+              <a class="link-btn" href="https://frenchicecream.itch.io/cat-cafe-escape" target="_blank">itch.io</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- PROJECT 6 -->
+        <div class="project">
+          <div class="project-media bracket">
+            <div class="bl"></div>
+            <div class="shots-grid">
+              <img src="images/prototype1.png" alt="Прототипы — скриншот 1">
+              <img src="images/prototype2.png" alt="Прототипы — скриншот 2">
+              <img src="images/prototype3.png" alt="Прототипы — скриншот 3">
+              <img src="images/prototype4.gif" alt="Прототипы — скриншот 4">
+            </div>
+          </div>
+          <div>
+            <h3 class="project-title">Прототипы</h3>
+            <dl class="project-meta">
+              <dt>Команда</dt>
+              <dd>Соло</dd>
+              <dt>Стек</dt>
+              <dd>Unity C#, DOTween, ShaderGraph, ScriptableObjects, Git</dd>
+              <dt>Жанр</dt>
+              <dd>3D-платформер</dd>
+              <dt>Срок</dt>
+              <dd>1 неделя, 2025</dd>
+            </dl>
+
+            <p class="project-text">
+              Набор из 9 прототипов игр, созданных за неделю, в следующих жанрах:
+              <br>● Платформер
+              <br>● Кози-игра
+              <br>● Шутер от первого лица
+              <br>● Визуальная новелла
+              <br>● Roguelike
+              <br>● Нарративная игра
+              <br>● Головоломка
+              <br>● Tycoon
+              <br>● Гонки
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Контакты</h2>
+      <div class="contact__info">
+        <a href="mailto:allan.v.ritter@gmail.com" class="btn">allan.v.ritter@gmail.com</a>
+        <a href="https://spb.hh.ru/resume/afdda336ff1102e73b0039ed1f624333676932" class="btn">hh.ru</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/FrenchIceCream" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://frenchicecream.itch.io">
+            <img src="./images/itchio.svg" title="Link to itch.io" class="footer__social-image" alt="itch.io">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image" />
+  </a>
+  <script src="./index.js"></script>
+
+  <div class="lightbox" id="lightbox">
+    <div class="lightbox-frame">
+      <img id="lightbox-img" src="" alt="">
+      <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev">&#8249;</button>
+      <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next">&#8250;</button>
+      <div class="lightbox-counter" id="lightbox-counter"></div>
+    </div>
+    <button type="button" class="lightbox-close" id="lightbox-close">✕</button>
+  </div>
+
+  <script src="scripts.html"></script>
+
+</body>
+
+</html>
